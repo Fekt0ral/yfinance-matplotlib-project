@@ -20,6 +20,7 @@ This project performs a financial analysis of Microsoft Corporation (Ticker: `MS
 ## Project Structure
 
 ```
+├── .gitignore
 ├── msft_analysis.py                        # Main analysis script
 ├── microsoft.csv                           # Exported data file (auto-generated)
 ├── msft_stock_price_&_7-day_moving_average.png
