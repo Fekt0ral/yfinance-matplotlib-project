@@ -53,3 +53,7 @@ All charts will be saved as PNG files in the working directory, and the processe
 ## Sample Output
 
 ![MSFT Stock Price Chart](./msft_stock_price_&_7-day_moving_average.png)
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it as you like.
