@@ -28,6 +28,7 @@ This project performs a financial analysis of Microsoft Corporation (Ticker: `MS
 ├── msft_volatility_14d.png
 ├── msft_spike_days_return.png
 ├── msft_volume_&_volatility_14d.png
+├── requirements.txt
 └── README.md
 ```
 
@@ -36,7 +37,7 @@ This project performs a financial analysis of Microsoft Corporation (Ticker: `MS
 Make sure you have Python 3.7+ and the following Python packages:
 
 ```bash
-pip install yfinance pandas matplotlib
+pip install -r requirements.txt
 ```
 
 ## Getting Started
@@ -51,10 +52,4 @@ All charts will be saved as PNG files in the working directory, and the processe
 
 ## Sample Output
 
-Add any of the generated PNG images to showcase the output, e.g.:
-
 ![MSFT Stock Price Chart](./msft_stock_price_&_7-day_moving_average.png)
-
-## License
-
-This project is licensed under the MIT License. Feel free to use and modify it as you like.
