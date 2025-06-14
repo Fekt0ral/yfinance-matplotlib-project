@@ -31,7 +31,7 @@ msft.index = pd.to_datetime(msft.index)
 most_volume_month = msft['Volume'].resample('M').sum().idxmax()
 print(f"Most volume month: {most_volume_month.strftime('%B')}")
 
-# Chart pf closing price and 7-day moving average
+# Chart of closing price and 7-day moving average
 plt.figure(figsize=(7.5, 3.5))
 plt.plot(msft['Close'], label="Close Price")
 plt.plot(msft['Rolling Avg (7d)'], label="7-Day SMA", linestyle="--")
@@ -43,7 +43,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.savefig("msft_stock_price_&_7-day_moving_average.png")
 
-# Chart:of daily profitability
+# Chart of daily profitability
 plt.figure(figsize=(7.5, 3.5))
 plt.bar(msft.index, msft['Daily Return'] * 100, label="Daily Return")
 plt.title("MSFT Daily Return")
