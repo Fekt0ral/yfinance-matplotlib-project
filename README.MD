@@ -45,7 +45,7 @@ pip install -r requirements.txt
 Clone the repository and run the analysis script:
 
 ```bash
-python msft_analysis.py
+python microsoft.py
 ```
 
 All charts will be saved as PNG files in the working directory, and the processed data will be exported as `microsoft.csv`.
